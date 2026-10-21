@@ -110,7 +110,13 @@ unclearReason và để instrumentName là chuỗi rỗng.
     const apiResult: any = await response.json();
 
     if (!response.ok) {
-      console.error("Gemini API error:", response.status);
+      
+console.error(
+  "Gemini API error:",
+  response.status,
+  JSON.stringify(apiResult.error || apiResult)
+);
+
       return respond({
         success: false,
         error: "Gemini không xử lý được ảnh. Vui lòng thử lại."
