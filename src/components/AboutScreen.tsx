@@ -51,7 +51,7 @@ export const AboutScreen: React.FC<AboutScreenProps> = ({ onNavigate }) => {
         {/* Cụm câu bắt buộc theo yêu cầu */}
         <div className="p-4 sm:p-5 rounded-2xl bg-white border border-[#E8DEC8] shadow-2xs space-y-3">
           <p className="text-xs sm:text-base font-semibold text-[#8B1E1E] leading-relaxed">
-            Trang Giới thiệu ghi rõ: <span className="font-bold underline decoration-[#8B1E1E]/40 underline-offset-4">sản phẩm thực tập của Nguyễn Văn An, mã sinh viên PH70154, Nhóm 1, thuộc Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.</span>
+            <span className="font-bold underline decoration-[#8B1E1E]/40 underline-offset-4">sản phẩm thực tập của Nguyễn Văn An, mã sinh viên PH70154, Nhóm 1, thuộc Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.</span>
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-2 text-xs text-[#52443A]">
