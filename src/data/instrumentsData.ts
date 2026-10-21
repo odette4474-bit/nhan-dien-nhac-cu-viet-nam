@@ -398,7 +398,7 @@ export const VIETNAMESE_INSTRUMENTS: InstrumentData[] = [
     family: 'Họ Gõ (Tự thân vang)',
     culturalRegion: 'Tây Nguyên đại ngàn',
     summary: 'Kiệt tác Di sản Văn hóa Phi vật thể Thế giới của nhân loại do UNESCO vinh danh; âm thanh của cồng chiêng là sợi dây kết nối thần linh, cộng đồng và vũ trụ.',
-    imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Gong_from_northern_Vietnam_%28500_BCE_-_300_CE%29.jpg/960px-Gong_from_northern_Vietnam_%28500_BCE_-_300_CE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
     imageAlt: 'Cồng Chiêng Tây Nguyên di sản UNESCO',
     soundPreset: 'cong_chieng',
     structure: [
@@ -512,7 +512,7 @@ export const VIETNAMESE_INSTRUMENTS: InstrumentData[] = [
     family: 'Họ Gõ (Tự thân vang)',
     culturalRegion: 'Đồng bằng Bắc Bộ',
     summary: 'Đỉnh cao chói lọi của nền văn minh thời kỳ dựng nước Văn Lang - Âu Lạc, biểu tượng thiêng liêng quyền lực của thủ lĩnh và nghi lễ thờ cúng thần linh.',
-    imageUrl: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Dong_Son_Bronze_Drum_04.jpg/960px-Dong_Son_Bronze_Drum_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
     imageAlt: 'Trống Đồng Đông Sơn Ngọc Lũ',
     soundPreset: 'trong_dong',
     structure: [
