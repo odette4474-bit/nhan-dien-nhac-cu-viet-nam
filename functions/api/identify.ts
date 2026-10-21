@@ -1,6 +1,12 @@
 
 interface Env {
-  GEMINI_API_KEY: string;
+  APPS_SCRIPT_URL: string;
+  WEBHOOK_SECRET: string;
+}
+
+interface IdentifyRequest {
+  imageBase64?: string;
+  mimeType?: string;
 }
 
 export const onRequestPost = async (context: {
@@ -9,150 +15,114 @@ export const onRequestPost = async (context: {
 }) => {
   const headers = {
     "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-store"
   };
 
   const respond = (data: unknown, status = 200) =>
     new Response(JSON.stringify(data), { status, headers });
 
   try {
-    const { imageBase64, mimeType } =
-      await context.request.json() as {
-        imageBase64?: string;
-        mimeType?: string;
-      };
+    const { APPS_SCRIPT_URL, WEBHOOK_SECRET } = context.env;
 
-    if (!imageBase64) {
+    if (!APPS_SCRIPT_URL || !WEBHOOK_SECRET) {
+      console.error("Missing Apps Script configuration");
+      return respond({
+        success: false,
+        error: "Máy chủ chưa được cấu hình đầy đủ."
+      }, 500);
+    }
+
+    const input = await context.request.json() as IdentifyRequest;
+
+    if (!input.imageBase64 || typeof input.imageBase64 !== "string") {
       return respond({
         success: false,
         error: "Bạn chưa chọn hình ảnh."
       }, 400);
     }
 
-    if (!context.env.GEMINI_API_KEY) {
+    const mimeType = input.mimeType || "image/jpeg";
+
+    if (!["image/jpeg", "image/png", "image/webp"].includes(mimeType)) {
       return respond({
         success: false,
-        error: "Chưa cấu hình Gemini API key."
-      }, 500);
+        error: "Định dạng ảnh không được hỗ trợ."
+      }, 400);
     }
 
-    const cleanBase64 = imageBase64.replace(
-      /^data:[^;]+;base64,/,
-      ""
-    );
-
-    const prompt = `
-Bạn là chuyên gia nhận diện nhạc cụ truyền thống Việt Nam.
-Hãy phân tích hình ảnh được cung cấp.
-
-Yêu cầu:
-- Nhận diện đúng nhạc cụ dựa trên đặc điểm nhìn thấy.
-- Không mặc định kết quả là Đàn Bầu.
-- Nếu không phải nhạc cụ hoặc không đủ căn cứ,
-  đặt canIdentify thành false.
-- Không bịa độ chính xác hoặc thông tin lịch sử.
-- Trả về duy nhất một đối tượng JSON hợp lệ.
-
-Các trường JSON:
-canIdentify: boolean
-isVietnameseInstrument: boolean
-instrumentName: string
-otherNames: string
-ethnicGroup: string
-family: string
-confidence: number
-summary: string
-features: string[]
-structure: string
-materials: string
-originHistory: string
-culturalRegion: string
-playingTechnique: string
-associatedGenres: string[]
-famousPieces: string[]
-unescoHeritage: string
-culturalSignificance: string
-funFact: string
-statusMessage: string
-unclearReason: string
-suggestions: string
-
-Nếu không nhận diện được, giải thích lý do trong
-unclearReason và để instrumentName là chuỗi rỗng.
-`;
-
-    const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": context.env.GEMINI_API_KEY,
-        },
-        body: JSON.stringify({
-          contents: [{
-            parts: [
-              { text: prompt },
-              {
-                inline_data: {
-                  mime_type: mimeType || "image/jpeg",
-                  data: cleanBase64,
-                },
-              },
-            ],
-          }],
-          generationConfig: {
-            responseMimeType: "application/json",
-          },
-        }),
-      }
-    );
-
-    const apiResult: any = await response.json();
-
-    if (!response.ok) {
-      
-console.error(
-  "Gemini API error:",
-  response.status,
-  JSON.stringify(apiResult.error || apiResult)
-);
-
+    if (input.imageBase64.length > 6000000) {
       return respond({
         success: false,
-        error: "Gemini không xử lý được ảnh. Vui lòng thử lại."
+        error: "Ảnh quá lớn. Vui lòng chọn ảnh nhỏ hơn."
+      }, 413);
+    }
+
+    const response = await fetch(APPS_SCRIPT_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        secret: WEBHOOK_SECRET,
+        imageBase64: input.imageBase64,
+        mimeType
+      }),
+      redirect: "follow"
+    });
+
+    const raw = await response.text();
+
+    if (!response.ok) {
+      console.error("Apps Script HTTP error:", response.status);
+      return respond({
+        success: false,
+        error: "Không thể kết nối đến dịch vụ nhận diện."
       }, 502);
     }
 
-    const text =
-      apiResult.candidates?.[0]?.content?.parts
-        ?.map((part: any) => part.text || "")
-        .join("") || "";
+    let result: any;
 
-    if (!text) {
-      throw new Error("Gemini không trả về nội dung.");
+    try {
+      result = JSON.parse(raw);
+    } catch {
+      console.error(
+        "Apps Script returned non-JSON:",
+        response.status,
+        raw.substring(0, 150)
+      );
+
+      return respond({
+        success: false,
+        error: "Apps Script trả về dữ liệu không hợp lệ."
+      }, 502);
     }
 
-    const result = JSON.parse(text);
+    if (!result.success) {
+      console.error("Apps Script error:", result.error);
+      return respond({
+        success: false,
+        error: result.error || "Không thể nhận diện ảnh."
+      }, 502);
+    }
 
-    if (typeof result.canIdentify !== "boolean") {
-      throw new Error("Kết quả nhận diện không hợp lệ.");
+    if (!result.data || typeof result.data.canIdentify !== "boolean") {
+      return respond({
+        success: false,
+        error: "Kết quả nhận diện không hợp lệ."
+      }, 502);
     }
 
     return respond({
       success: true,
-      data: {
-        ...result,
-        isMatchedWithDatabase: false,
-      },
+      data: result.data
     });
 
   } catch (error) {
-    console.error("Identification error:", error);
+    console.error("Identify proxy error:", String(error));
 
     return respond({
       success: false,
-      error: "Có lỗi khi nhận diện hình ảnh. Vui lòng thử lại."
+      error: "Có lỗi khi kết nối dịch vụ nhận diện."
     }, 500);
   }
 };
-
