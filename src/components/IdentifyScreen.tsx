@@ -215,10 +215,7 @@ export const IdentifyScreen: React.FC<IdentifyScreenProps> = ({
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Screen Title */}
       <div className="text-center max-w-3xl mx-auto mb-8">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#8B1E1E]/10 text-[#8B1E1E] text-xs font-semibold mb-2">
-          <Camera className="w-3.5 h-3.5" />
-          <span>Màn Hình 2 — Nhận Diện Nhạc Cụ</span>
-        </div>
+        
         <h1 className="font-serif text-3xl sm:text-4xl font-black text-[#2A2421]">
           Tải Lên Hình Ảnh Để Hệ Thống Phân Tích
         </h1>
