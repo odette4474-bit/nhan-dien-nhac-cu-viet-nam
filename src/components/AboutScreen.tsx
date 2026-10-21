@@ -13,10 +13,7 @@ export const AboutScreen: React.FC<AboutScreenProps> = ({ onNavigate }) => {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
       {/* Header Banner */}
       <div className="text-center max-w-3xl mx-auto space-y-3">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#8B1E1E]/10 text-[#8B1E1E] text-xs font-semibold">
-          <Target className="w-3.5 h-3.5" />
-          <span>Màn Hình 6 — Giới Thiệu Dự Án</span>
-        </div>
+        
         <h1 className="font-serif text-3xl sm:text-5xl font-black text-[#2A2421]">
           Sứ Mệnh Bảo Tồn & Quảng Bá Âm Nhạc Dân Tộc
         </h1>
