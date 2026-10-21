@@ -185,32 +185,16 @@ export const ImageIdentifier: React.FC<ImageIdentifierProps> = ({
       }
 
       setResult(json.data);
-    } catch (err: any) {
-      console.warn('API identification failed, falling back to heuristic search:', err);
-      // Fallback matching to guarantee user always gets a rich educational response
-      const fallback = VIETNAMESE_INSTRUMENTS[0];
-      setResult({
-        canIdentify: true,
-        isMatchedWithDatabase: true,
-        isVietnameseInstrument: true,
-        instrumentName: fallback.name,
-        otherNames: fallback.otherNames?.join(', '),
-        ethnicGroup: fallback.ethnicGroup,
-        family: fallback.family,
-        confidence: 92,
-        summary: fallback.summary,
-        features: fallback.structure.slice(0, 3),
-        structure: fallback.structure.join('. '),
-        materials: fallback.materials.join(', '),
-        originHistory: fallback.originHistory,
-        culturalRegion: fallback.culturalRegion,
-        playingTechnique: fallback.playingTechnique.join('. '),
-        associatedGenres: fallback.associatedGenres,
-        famousPieces: fallback.famousPieces,
-        unescoHeritage: fallback.unescoHeritage,
-        culturalSignificance: fallback.culturalSignificance,
-        funFact: fallback.funFact,
-      });
+    
+} catch (err: any) {
+  console.error('Lỗi nhận diện AI:', err);
+
+  setResult(null);
+
+  setError(
+    'Không thể kết nối với AI Gemini. Vui lòng thử lại sau.'
+  );
+
     } finally {
       setIsAnalyzing(false);
     }
