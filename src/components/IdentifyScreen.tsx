@@ -173,34 +173,16 @@ export const IdentifyScreen: React.FC<IdentifyScreenProps> = ({
 
       setIsAnalyzing(false);
       onAnalysisComplete(json.data, base64Image);
+    
     } catch (err: any) {
-      console.warn('AI fallback invoked:', err);
-      const fallback = VIETNAMESE_INSTRUMENTS[0];
-      const fallbackResult: IdentificationResult = {
-        canIdentify: true,
-        isMatchedWithDatabase: true,
-        isVietnameseInstrument: true,
-        instrumentName: fallback.name,
-        otherNames: fallback.otherNames?.join(', '),
-        ethnicGroup: fallback.ethnicGroup,
-        family: fallback.family,
-        confidence: 92,
-        summary: fallback.summary,
-        features: fallback.structure.slice(0, 3),
-        structure: fallback.structure.join('. '),
-        materials: fallback.materials.join(', '),
-        originHistory: fallback.originHistory,
-        culturalRegion: fallback.culturalRegion,
-        playingTechnique: fallback.playingTechnique.join('. '),
-        associatedGenres: fallback.associatedGenres,
-        famousPieces: fallback.famousPieces,
-        unescoHeritage: fallback.unescoHeritage,
-        culturalSignificance: fallback.culturalSignificance,
-        funFact: fallback.funFact,
-      };
+      console.error('Lỗi nhận diện AI:', err);
+      setError(
+        err?.message || 'Không thể nhận diện ảnh. Vui lòng thử lại.'
+      );
+    } finally {
       setIsAnalyzing(false);
-      onAnalysisComplete(fallbackResult, base64Image);
     }
+
   };
 
   const stepLabels = [
