@@ -72,10 +72,7 @@ export const CatalogScreen: React.FC<CatalogScreenProps> = ({
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#8B1E1E]/10 text-[#8B1E1E] text-xs font-semibold mb-2">
-            <BookOpen className="w-3.5 h-3.5" />
-            <span>Màn Hình 4 — Danh Sách Nhạc Cụ</span>
-          </div>
+          
           <h1 className="font-serif text-3xl sm:text-4xl font-black text-[#2A2421]">
             Kho Bách Khoa Nhạc Cụ Dân Tộc
           </h1>
