@@ -138,10 +138,7 @@ export const ReferencesScreen: React.FC<ReferencesScreenProps> = ({ onNavigate }
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto space-y-3">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#8B1E1E]/10 text-[#8B1E1E] text-xs font-semibold">
-          <BookOpen className="w-3.5 h-3.5" />
-          <span>Màn Hình 7 — Nguồn Tham Khảo & Tài Liệu</span>
-        </div>
+        
         <h1 className="font-serif text-3xl sm:text-5xl font-black text-[#2A2421]">
           Nguồn Dữ Liệu, Hình Ảnh & Tài Liệu Tham Khảo
         </h1>
