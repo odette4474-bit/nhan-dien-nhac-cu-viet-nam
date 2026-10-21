@@ -1,0 +1,303 @@
+[
+  {
+    "ma_nhac_cu": "NC_DAN_BAU",
+    "ten_nhac_cu": "Đàn Bầu",
+    "ten_goi_khac": ["Độc Huyền Cầm"],
+    "hinh_anh": "/assets/images/dan_bau.jpg",
+    "nhom_nhac_cu": "Nhạc cụ dây (chi gảy bồi âm)",
+    "chat_lieu": "Mặt đàn bằng gỗ ngô đồng xốp nhẹ; thành đàn gỗ gụ hoặc trắc; vòi đàn bằng sừng trâu dẻo dai; bầu đàn bằng vỏ quả bầu khô hoặc gỗ tiện hồ lô; dây đàn bằng kim loại mềm.",
+    "nguon_goc": "Nhạc cụ thuần Việt xuất hiện từ thế kỷ 18 hoặc sớm hơn tại vùng đồng bằng Bắc Bộ, gắn liền với nghệ thuật Hát Xẩm dân gian và chiếu chèo cổ.",
+    "dac_diem_nhan_dang": [
+      "Thân đàn hình hộp dài khoảng 105 - 120cm, mặt đàn phẳng hoặc vồng nhẹ.",
+      "Chỉ có duy nhất 1 dây đàn căng dọc theo thân đàn.",
+      "Có một cần đàn (vòi đàn) uốn cong bằng sừng cắm ở đầu đàn, luồn qua một quả bầu hồ lô.",
+      "Không có phím bấm trên mặt đàn như đàn guitar hay đàn nguyệt."
+    ],
+    "cach_su_dung": "Tay phải cầm que gảy ngắn, cạnh bàn tay chạm nhẹ vào các điểm nút bồi âm (1/2, 1/3, 1/4 dây) rồi gảy. Tay trái cầm cần sừng uốn tới trước để hạ trầm nốt hoặc kéo lui sau để nâng cao nốt, rung uốn lượn tạo âm thanh nỉ non như tiếng người.",
+    "mo_ta": "Biểu tượng âm nhạc dân tộc Việt Nam với khả năng biểu cảm sâu sắc, u uất ngọt ngào. Dù chỉ có một dây duy nhất nhưng diễn tấu được trọn vẹn mọi cao độ vô cấp.",
+    "dan_toc": "Kinh (Việt)",
+    "vung_mien": "Đồng bằng Bắc Bộ",
+    "di_san_unesco": "Nhạc cụ tiêu biểu trong nhiều hồ sơ Di sản Văn hóa Phi vật thể Quốc gia.",
+    "the_loai_am_nhac": ["Hát Xẩm", "Chèo cổ", "Hát Chầu Văn", "Hòa tấu Dân tộc"],
+    "bai_ban_tieu_bieu": ["Ru Con Nam Bộ", "Lòng Mẹ", "Cung Đàn Đất Nước", "Qua Cầu Gió Bay"]
+  },
+  {
+    "ma_nhac_cu": "NC_DAN_TRANH",
+    "ten_nhac_cu": "Đàn Tranh",
+    "ten_goi_khac": ["Thập Lục Cầm"],
+    "hinh_anh": "/assets/images/dan_tranh.jpg",
+    "nhom_nhac_cu": "Nhạc cụ dây (chi gảy)",
+    "chat_lieu": "Mặt và đáy đàn bằng gỗ ngô đồng phơi khô tự nhiên; thành đàn bằng gỗ cẩm lai hoặc trắc khảm ốc xà cừ; con nhạn bằng gỗ trắc hoặc xương; dây thép mạ đồng hoặc tơ tằm cổ xưa.",
+    "nguon_goc": "Xuất hiện trong dàn nhạc cung đình và dân gian Việt Nam từ thời nhà Trần; được Việt hóa sâu sắc cả về thang âm lẫn kỹ thuật rung mổ ngón tay trái.",
+    "dac_diem_nhan_dang": [
+      "Thân đàn hình hộp dài thuôn nhọn khoảng 110 - 120cm, mặt đàn cong vồng.",
+      "Có từ 16 đến 19 dây kim loại mắc dọc theo mặt đàn (loại hiện đại có 21-22 dây).",
+      "Hàng con nhạn (ngựa đàn) hình chữ V úp ngược xếp so le chéo trên mặt gỗ để đỡ từng sợi dây.",
+      "Đầu đàn rộng có mộng luồn dây, đầu hẹp có các trục lên dây bằng gỗ hoặc kim loại."
+    ],
+    "cach_su_dung": "Người diễn tấu ngồi xếp bằng hoặc ngồi ghế, ngón tay cái, trỏ, giữa của tay phải đeo móng gảy (đồi mồi hoặc kim loại) để gảy và rải ngón (arpeggio). Các đầu ngón tay trái nhấn, rung, vò, nhún trên dây phía bên kia con nhạn để tạo luyến láy vi âm.",
+    "mo_ta": "Nhạc cụ dây gảy có âm sắc trong trẻo, thánh thót, lấp lánh như giọt sương rơi trên mặt hồ, giữ vai trò chủ chốt trong Nhã Nhạc Cung Đình Huế và Đờn Ca Tài Tử Nam Bộ.",
+    "dan_toc": "Kinh (Việt)",
+    "vung_mien": "Cung đình Huế & Nam Bộ",
+    "di_san_unesco": "Tham gia trong Nhã Nhạc Cung Đình Huế (2003) và Đờn Ca Tài Tử Nam Bộ (2013).",
+    "the_loai_am_nhac": ["Nhã Nhạc Cung Đình", "Đờn Ca Tài Tử", "Ca Huế", "Cải Lương"],
+    "bai_ban_tieu_bieu": ["Lưu Thủy Kim Tiền", "Tứ Đại Oán", "Xuân Phong Long Hổ", "Dạ Cổ Hoài Lang"]
+  },
+  {
+    "ma_nhac_cu": "NC_DAN_NGUYET",
+    "ten_nhac_cu": "Đàn Nguyệt",
+    "ten_goi_khac": ["Đàn Kìm", "Quân Tử Cầm"],
+    "hinh_anh": "/assets/images/dan_nguyet.jpg",
+    "nhom_nhac_cu": "Nhạc cụ dây (chi gảy)",
+    "chat_lieu": "Thùng đàn tròn bằng gỗ ngô đồng xốp nhẹ; thành đàn bằng gỗ trắc, mun; cần đàn gỗ cứng bền chắc; phím đàn bằng cật tre già dán xi; dây nilon tổng hợp hoặc tơ tằm.",
+    "nguon_goc": "Du nhập và được người Việt bản địa hóa sâu sắc từ nhiều thế kỷ trước, trở thành cây đàn thủ lĩnh trong Đờn ca tài tử Nam Bộ và linh hồn trong Hát Văn Bắc Bộ.",
+    "dac_diem_nhan_dang": [
+      "Thùng đàn hình tròn dẹt như mặt trăng rằm, đường kính khoảng 36 - 40cm.",
+      "Cần đàn rất dài (khoảng 80 - 100cm), thanh mảnh.",
+      "Gắn 8 đến 10 phím bấm bằng tre rất cao nhô hẳn lên khỏi mặt cần đàn.",
+      "Đầu đàn uốn cong gắn 4 trục vặn nhưng chỉ mắc 2 dây đàn."
+    ],
+    "cach_su_dung": "Tay phải cầm móng gảy bằng sừng hoặc nhựa để gảy, vê, ngắt nốt. Tay trái bấm vào khoảng giữa hai phím tre cao, nhấn sâu xuống sát cần đàn để bẻ nốt cao lên cả quãng ba, tạo âm sắc nồng nàn, biến hóa khôn lường.",
+    "mo_ta": "Được mệnh danh là 'Vua của các nhạc cụ gảy' trong dàn nhạc cổ truyền. Âm thanh đĩnh đạc, ấm áp, vang rền và giữ vai trò kìm giữ nhịp điệu bài bản.",
+    "dan_toc": "Kinh (Việt)",
+    "vung_mien": "Nam Bộ & Đồng bằng Bắc Bộ",
+    "di_san_unesco": "Nhạc cụ trung tâm của Di sản Đờn Ca Tài Tử Nam Bộ (2013).",
+    "the_loai_am_nhac": ["Đờn Ca Tài Tử", "Hát Chầu Văn", "Hát Chèo", "Cải Lương"],
+    "bai_ban_tieu_bieu": ["Dạ Cổ Hoài Lang", "Phú Lục", "Bình Bán Vắn", "Văn Cô Bơ"]
+  },
+  {
+    "ma_nhac_cu": "NC_DAN_DAY",
+    "ten_nhac_cu": "Đàn Đáy",
+    "ten_goi_khac": ["Vô Đề Cầm"],
+    "hinh_anh": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ dây (chi gảy)",
+    "chat_lieu": "Mặt đàn gỗ ngô đồng không có lỗ thoát âm; thành và cần đàn bằng gỗ trắc, dổi, mun; phím đàn bằng tre già; dây đàn bằng tơ tằm mềm mại.",
+    "nguon_goc": "Nhạc cụ thuần Việt do người Việt sáng tạo độc lập từ thế kỷ 15 thời nhà Lê, không hề có nguyên mẫu ở bất kỳ quốc gia nào khác.",
+    "dac_diem_nhan_dang": [
+      "Thùng đàn hình thang cân, đáy lớn ở dưới đáy nhỏ ở trên.",
+      "Đáy đàn phía dưới để hở một khoảng trống không bịt kín.",
+      "Cần đàn dài kỷ lục (110 - 130cm), thẳng đứng với 10-12 phím tre gắn cao.",
+      "Mắc 3 dây đàn bằng tơ hoặc cước."
+    ],
+    "cach_su_dung": "Kép đàn (người nam đánh đàn) ngồi xếp bằng, ôm đàn nghiêng một góc. Tay phải cầm móng tre gảy, vê, mổ. Tay trái bấm chẹt ngón trên cần đàn dài tạo tiếng 'tinh, tang, tình' trầm đục, kín đáo, hòa quyện với nhịp phách của đào nương.",
+    "mo_ta": "Cây đàn linh hồn của nghệ thuật Ca Trù di sản thế giới. Âm thanh trầm ấm, sâu thẳm, mang tính tĩnh tại và triết lý uyên bác của tao nhân mặc khách Thăng Long xưa.",
+    "dan_toc": "Kinh (Việt)",
+    "vung_mien": "Đồng bằng Bắc Bộ",
+    "di_san_unesco": "Di sản Văn hóa Phi vật thể cần được bảo vệ khẩn cấp UNESCO (Ca Trù 2009).",
+    "the_loai_am_nhac": ["Ca Trù", "Hát Ả Đào", "Hát Cửa Đình"],
+    "bai_ban_tieu_bieu": ["Gửi Thư", "Hát Nói", "Thét Nhạc", "Tỳ Bà Hành"]
+  },
+  {
+    "ma_nhac_cu": "NC_DAN_NHI",
+    "ten_nhac_cu": "Đàn Nhị",
+    "ten_goi_khac": ["Đàn Cò"],
+    "hinh_anh": "https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ dây (chi kéo vĩ)",
+    "chat_lieu": "Bầu nhị bịt da trăn hoặc da kỳ đà; cần và ống nhị làm bằng gỗ mun, trắc; cung vĩ làm bằng cật tre luồn lông đuôi ngựa thật.",
+    "nguon_goc": "Nhạc cụ cổ truyền phổ biến khắp cả nước trong cả âm nhạc dân gian kịch hát lẫn nghi lễ tang ma và nhã nhạc cung đình.",
+    "dac_diem_nhan_dang": [
+      "Ống cộng hưởng hình tròn hoặc bát giác bịt một mặt da trăn có hoa văn vảy rõ nét.",
+      "Cần đàn thẳng cắm xuyên qua ống nhị, đầu cần có 2 trục lên dây.",
+      "Có 2 dây đàn bằng kim loại hoặc tơ, dây trầm cách dây bổng một quãng năm.",
+      "Cung vĩ được luồn cố định kẹp giữa hai dây đàn, không tháo rời ra ngoài được."
+    ],
+    "cach_su_dung": "Đặt ống nhị trên đùi, tay trái cầm cần đàn bấm bằng thịt đầu ngón tay (không có phím), vuốt và rung miết. Tay phải cầm cung vĩ cọ xát lông đuôi ngựa tẩm nhựa thông vào dây đàn tạo âm thanh ma sát truyền cảm.",
+    "mo_ta": "Cây đàn dây kéo có sức biểu cảm vô cùng phong phú: từ ai oán nức nở như tiếng khóc than đến hân hoan rộn ràng trong ngày hội mùa.",
+    "dan_toc": "Kinh và nhiều dân tộc anh em",
+    "vung_mien": "Toàn quốc (Bắc Bộ, Miền Trung, Nam Bộ)",
+    "the_loai_am_nhac": ["Hát Chèo", "Tuồng", "Cải Lương", "Nhã Nhạc Cung Đình", "Nhạc Đám Ma"],
+    "bai_ban_tieu_bieu": ["Lưu Thủy Đoản", "Kể Chuyện Ngày Mùa", "Dạ Bán Kê Minh"]
+  },
+  {
+    "ma_nhac_cu": "NC_SAO_TRUC",
+    "ten_nhac_cu": "Sáo Trúc & Tiêu",
+    "ten_goi_khac": ["Sáo Ngang", "Địch", "Động Tiêu"],
+    "hinh_anh": "/assets/images/sao_truc.jpg",
+    "nhom_nhac_cu": "Nhạc cụ hơi (ống sậy / tre nứa)",
+    "chat_lieu": "Ống trúc hun khói hoặc nứa già rừng nguyên sinh, lòng ống nhẵn bóng; nút chặn bằng bấc bọc nhung.",
+    "nguon_goc": "Gắn liền với nền văn minh nông nghiệp lúa nước hàng ngàn năm của người Việt; hình ảnh chú bé chăn trâu thổi sáo là biểu tượng thanh bình quê hương.",
+    "dac_diem_nhan_dang": [
+      "Thân ống tre/nứa thẳng tròn dài chừng 40 - 55cm.",
+      "Một lỗ thổi hình oval ở gần đầu bịt kín.",
+      "6 lỗ bấm thẳng hàng (hoặc 10 lỗ trên sáo cải tiến hiện đại).",
+      "Lỗ định âm và lỗ xỏ dây tua rua trang trí ở đuôi sáo."
+    ],
+    "cach_su_dung": "Mím môi thổi luồng hơi sắc bén cắt ngang mép lỗ thổi (embouchure). Các ngón tay đóng mở các lỗ bấm, kết hợp kỹ thuật vuốt ngón, rung hơi bụng, đánh lưỡi đơn/kép (staccato) để tạo âm điệu réo rắt.",
+    "mo_ta": "Mang trọn vẹn âm hưởng trong trẻo, mộc mạc và thanh tao của đồng quê sông nước Việt Nam, đưa hồn người về với thiên nhiên yên bình.",
+    "dan_toc": "Kinh và 53 dân tộc anh em",
+    "vung_mien": "Toàn quốc (Đồng bằng Bắc Bộ, Tây Bắc)",
+    "the_loai_am_nhac": ["Dân Ca Quan Họ", "Hát Chèo", "Độc Tấu Thính Phòng", "Dân Ca Các Vùng Miền"],
+    "bai_ban_tieu_bieu": ["Đi Cấy", "Tiếng Gọi Mùa Xuân", "Trên Đường Quê", "Cánh Chim Tự Do"]
+  },
+  {
+    "ma_nhac_cu": "NC_DAN_TRUNG",
+    "ten_nhac_cu": "Đàn T'rưng",
+    "ten_goi_khac": ["Tơ-rưng"],
+    "hinh_anh": "/assets/images/dan_trung.jpg",
+    "nhom_nhac_cu": "Nhạc cụ gõ (tự thân vang)",
+    "chat_lieu": "Ống nứa già lồ ô Tây Nguyên phơi khô; dây thừng gai hoặc dù dẻo dai; khung đỡ bằng tre rừng; dùi gõ bọc đầu cao su mềm.",
+    "nguon_goc": "Nhạc cụ tiền sử của các dân tộc Ba Na, Gia Rai vùng Tây Nguyên. Xưa kia đàn được treo trên nương rẫy mượn sức nước suối gõ để xua đuổi muông thú.",
+    "dac_diem_nhan_dang": [
+      "Gồm 12 đến 16 ống nứa dài ngắn khác nhau vạt xéo miệng ống, xếp song song theo thứ tự cao độ.",
+      "Các ống nứa được xâu liên hoàn thành một dải thang âm hình thang dốc.",
+      "Được treo trên giá tre dựng sàn hoặc khung chân chống gỗ di động.",
+      "Dùi gõ bằng que tre có bịt đầu cao su êm."
+    ],
+    "cach_su_dung": "Nghệ nhân dùng hai dùi gõ liên tục vào giữa thân hoặc đầu vạt của các ống nứa, dùng kỹ thuật gõ liên hồi (tremolo), gõ chập hai tay tạo nhịp điệu rộn rã như suối reo thác đổ.",
+    "mo_ta": "Tiếng đàn giòn giã, vang lảnh như dòng nước suối mát lành, đánh thức sức sống mãnh liệt của núi rừng đại ngàn Tây Nguyên trong ngày hội mùa.",
+    "dan_toc": "Ba Na, Gia Rai, Xơ Đăng, Giẻ Triêng",
+    "vung_mien": "Tây Nguyên đại ngàn",
+    "the_loai_am_nhac": ["Lễ Mừng Lúa Mới", "Lễ Đâm Trâu", "Hòa Tấu Cồng Chiêng & Nhạc Khí Tre Nứa"],
+    "bai_ban_tieu_bieu": ["Đi Săn", "Mùa Hái Quả", "Tiếng Đàn T'rưng", "Vui Mùa Tây Nguyên"]
+  },
+  {
+    "ma_nhac_cu": "NC_KLONG_PUT",
+    "ten_nhac_cu": "K'lông Pút",
+    "ten_goi_khac": ["K'long Pút", "Đinh Pút"],
+    "hinh_anh": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ hơi (vỗ nén khí gián tiếp)",
+    "chat_lieu": "Các ống tre nứa già rỗng ruột trong rừng nguyên sinh, vạt phẳng miệng ống.",
+    "nguon_goc": "Nhạc cụ thiêng liêng gắn liền với tín ngưỡng Nữ thần Lúa (Mẹ Lúa) của người Xơ Đăng, Ba Na; chỉ phụ nữ mới được vỗ đàn để gọi hạt lúa nảy mầm.",
+    "dac_diem_nhan_dang": [
+      "Dàn gồm 7 đến 12 ống tre nứa rỗng ruột kích thước lớn nhỏ khác nhau.",
+      "Các ống được đặt nằm ngang trên giá tre hoặc trên phiến đá phẳng.",
+      "Miệng ống để hở hướng về phía người diễn tấu.",
+      "Người chơi đứng hoặc quỳ trước đầu ống, không hề chạm tay vào nhạc cụ."
+    ],
+    "cach_su_dung": "Người diễn tấu khum hai lòng bàn tay vỗ mạnh vào nhau cách miệng ống tre chừng 10cm. Luồng khí nén bất ngờ tống vào miệng ống làm cột không khí bên trong rung động phát ra âm thanh trầm bổng.",
+    "mo_ta": "Nhạc cụ kỳ lạ và độc nhất vô nhị trên thế giới khi người chơi không hề tiếp xúc vào thân đàn mà dùng luồng gió từ lòng bàn tay để tạo nên âm vang trầm ấm của đất trời.",
+    "dan_toc": "Xơ Đăng, Ba Na, Gia Rai",
+    "vung_mien": "Tây Nguyên đại ngàn",
+    "the_loai_am_nhac": ["Lễ Mừng Lúa Mới", "Hát Ru Mẹ Lúa", "Dân Ca Tây Nguyên"],
+    "bai_ban_tieu_bieu": ["Tiếng Vỗ Mừng Lúa", "Hương Rừng", "Đón Mẹ Lúa Về Kho"]
+  },
+  {
+    "ma_nhac_cu": "NC_CONG_CHIENG",
+    "ten_nhac_cu": "Cồng Chiêng Tây Nguyên",
+    "ten_goi_khac": ["Chiêng Knah", "Chiêng Tha"],
+    "hinh_anh": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ gõ (tự thân vang bằng kim loại đồng)",
+    "chat_lieu": "Hợp kim đồng thau pha thiếc và bạc non theo bí quyết luyện kim cổ truyền; dùi gõ bằng gỗ mềm bọc vải hoặc da trâu.",
+    "nguon_goc": "Bắt nguồn từ thời kỳ đồ đồng Đông Sơn - Sa Huỳnh hàng ngàn năm trước; là báu vật thiêng liêng nhất trong gia đình mẫu hệ Tây Nguyên.",
+    "dac_diem_nhan_dang": [
+      "Cồng: Đĩa tròn bằng đồng có núm tròn lồi ở giữa tâm, âm trầm sâu định âm.",
+      "Chiêng: Mặt đồng bằng phẳng không có núm, âm thanh ngân vang bổng lấp lánh.",
+      "Một bộ đầy đủ gồm 2-3 chiếc (bộ sơ khai) đến 12-24 chiếc xếp thành dàn thang âm phong phú.",
+      "Có dây quai luồn qua lỗ mép vành để nghệ nhân xách khi vừa đánh vừa di chuyển múa xoang."
+    ],
+    "cach_su_dung": "Nghệ nhân dùng dùi hoặc nắm tay đánh vào núm/mặt chiêng. Tay trái chặn hoặc mở vào mặt trong vành chiêng để ngắt tiếng và điều chỉnh độ ngân vang của âm thanh.",
+    "mo_ta": "Kiệt tác Di sản Văn hóa Phi vật thể Thế giới của nhân loại do UNESCO vinh danh năm 2005. Âm thanh cồng chiêng là chiếc cầu nối thiêng liêng giữa con người với thần linh Yàng và vũ trụ.",
+    "dan_toc": "Gia Rai, Ba Na, Ê Đê, M'Nông, K'Ho, Xơ Đăng",
+    "vung_mien": "Tây Nguyên đại ngàn",
+    "di_san_unesco": "Kiệt tác Truyền khẩu và Di sản Phi vật thể Nhân loại (UNESCO 2005).",
+    "the_loai_am_nhac": ["Lễ Bỏ Mả (Pơthi)", "Lễ Mừng Lúa Mới", "Lễ Mừng Nhà Rông", "Hội Đua Voi"],
+    "bai_ban_tieu_bieu": ["Đón Khách", "Mừng Chiến Thắng", "Tiễn Đưa Người Quá Cố"]
+  },
+  {
+    "ma_nhac_cu": "NC_DAN_TINH",
+    "ten_nhac_cu": "Đàn Tính",
+    "ten_goi_khac": ["Tính Tẩu"],
+    "hinh_anh": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ dây (chi gảy)",
+    "chat_lieu": "Bầu đàn làm bằng quả bầu già phơi khô; mặt đàn bằng gỗ thông nhẹ; cần đàn bằng gỗ dâu rừng dẻo; dây đàn bằng tơ tằm vuốt sáp ong hoặc cước.",
+    "nguon_goc": "Nhạc cụ linh hồn trong nghi lễ Hát Then của đồng bào Tày, Nùng, Thái vùng cao phía Bắc; gắn liền với truyền thuyết Then ban đàn cứu rỗi con người khỏi sầu muộn.",
+    "dac_diem_nhan_dang": [
+      "Bầu đàn tròn xoe làm từ nửa quả bầu già đường kính khoảng 20 - 25cm.",
+      "Mặt bầu bịt một miếng gỗ mỏng khoét lỗ thoát âm.",
+      "Cần đàn bằng gỗ dâu thanh mảnh dài khoảng 90cm, không gắn phím bấm.",
+      "Đầu cần đàn uốn cong tạo hình búp sen hoặc cánh chim phượng uyển chuyển.",
+      "Mắc từ 2 đến 3 dây đàn."
+    ],
+    "cach_su_dung": "Thầy Then hoặc nghệ nhân đeo móng gảy ngắn ở ngón trỏ tay phải để gảy, tay trái bấm dây tự do trên cần đàn trơn. Vừa gảy đàn vừa hát Then và lắc chùm chuông nhạc ở cổ chân tạo nhịp điệu rộn rã.",
+    "mo_ta": "Thanh âm mộc mạc, thủ thỉ như suối ngàn róc rách. Cây đàn là 'ngựa thiêng' đưa đường dẫn lối các đoàn quân Then chu du lên trời cầu phúc cho muôn dân.",
+    "dan_toc": "Tày, Nùng, Thái",
+    "vung_mien": "Vùng cao Tây Bắc & Đông Bắc",
+    "di_san_unesco": "Thực hành Then của người Tày, Nùng, Thái được UNESCO công nhận Di sản Thế giới năm 2019.",
+    "the_loai_am_nhac": ["Nghi Lễ Hát Then", "Lễ Cầu An", "Lễ Kỳ Yên", "Lễ Lẩu Then"],
+    "bai_ban_tieu_bieu": ["Đường Đi Lên Trời", "Khúc Hát Hoa Rừng", "Mùa Then"]
+  },
+  {
+    "ma_nhac_cu": "NC_KHEN_MONG",
+    "ten_nhac_cu": "Khèn Mông",
+    "ten_goi_khac": ["Qeej", "Kềnh"],
+    "hinh_anh": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ hơi (đa âm có lưỡi gà)",
+    "chat_lieu": "Bầu khèn bằng gỗ pơ mu hoặc thông đá; các ống khèn bằng trúc già trên vách núi đá; lưỡi gà (lam) bằng đồng thau dát mỏng tinh xảo.",
+    "nguon_goc": "Nhạc cụ thiêng gắn bó máu thịt với đời sống tâm linh và tình cảm của người Mông trên các triền núi cao cheo leo.",
+    "dac_diem_nhan_dang": [
+      "Gồm 6 ống trúc dài ngắn khác nhau cắm xuyên qua một bầu gỗ khoét rỗng hình thoi.",
+      "Đầu bầu khèn thuôn nhỏ có khoét lỗ thổi.",
+      "Bên trong bầu khèn, mỗi ống trúc gắn một lưỡi gà bằng đồng siêu mỏng.",
+      "Các đai niềng bằng vỏ cây hoặc đồng giữ chùm ống khèn vững chắc."
+    ],
+    "cach_su_dung": "Thổi và hít hơi liên tục (tuần hoàn hơi) qua đầu bầu khèn, các ngón tay bịt mở các lỗ bấm trên ống trúc. Người nghệ nhân vừa thổi vừa thực hiện vũ đạo múa khèn điêu luyện: nhào lộn, quay tròn, quỳ gối trên đá tai mèo.",
+    "mo_ta": "Nhạc cụ hơi đa âm độc đáo: vừa có giai điệu réo rắt du dương, vừa có bè trầm ngân nga làm nền. Tiếng khèn thay lời tự tình mùa xuân và đưa đường tiễn biệt người quá cố về với cội nguồn.",
+    "dan_toc": "H'Mông (Mông)",
+    "vung_mien": "Vùng cao Tây Bắc & Đông Bắc",
+    "the_loai_am_nhac": ["Lễ Hội Gầu Tào", "Phiên Chợ Tình", "Nghi Lễ Tang Ma Người Mông"],
+    "bai_ban_tieu_bieu": ["Tiếng Khèn Gọi Bạn", "Xuống Chợ Mùa Xuân", "Bài Khèn Tiễn Mẹ"]
+  },
+  {
+    "ma_nhac_cu": "NC_TRONG_DONG",
+    "ten_nhac_cu": "Trống Đồng Đông Sơn",
+    "ten_goi_khac": ["Trống Đồng Ngọc Lũ", "Trống Đồng Sông Đà"],
+    "hinh_anh": "/assets/images/trong_dong.jpg",
+    "nhom_nhac_cu": "Nhạc cụ gõ (tự thân vang bằng kim loại đúc)",
+    "chat_lieu": "Hợp kim đồng thau đúc nguyên khối pha thiếc và chì theo tỷ lệ luyện kim đỉnh cao thời đại đồ đồng Văn Lang.",
+    "nguon_goc": "Có niên đại từ thế kỷ thứ 7 trước Công nguyên thời kỳ các Vua Hùng dựng nước Văn Lang - Âu Lạc; đỉnh cao văn minh kim khí Đông Nam Á.",
+    "dac_diem_nhan_dang": [
+      "Mặt trống tròn phẳng, ở giữa đúc hình ngôi sao nhiều cánh (mặt trời) tỏa tia hào quang.",
+      "Các vòng hoa văn đồng tâm trang trí chim Lạc bay, hươu sao, cảnh giã gạo, múa cờ, đua thuyền.",
+      "Thân trống nở rộng ở tang, thuôn ở lưng và xòe rộng ở chân đế.",
+      "Quai trống đúc kép hình bện thừng chắc chắn gắn hai bên thân."
+    ],
+    "cach_su_dung": "Trống được treo trên giá gỗ hoặc đặt vững trên bệ bọc nỉ. Dùng chày gỗ bọc da hoặc vải nỉ đánh vào tâm mặt trời hoặc các điểm xung quanh, phát ra âm thanh trầm hùng vang xa hàng chục dặm.",
+    "mo_ta": "Biểu tượng thiêng liêng cao nhất của cội nguồn dựng nước Văn Lang và sức mạnh bất khuất của dân tộc Việt Nam. Âm vang hào khí non sông kết nối đất trời.",
+    "dan_toc": "Lạc Việt cổ (Kinh)",
+    "vung_mien": "Đồng bằng Bắc Bộ (Đông Sơn, Phú Thọ, Hà Nam)",
+    "the_loai_am_nhac": ["Đại Lễ Giỗ Tổ Hùng Vương", "Nghi Lễ Quốc Gia", "Hội Trống Hào Khí Đông A"],
+    "bai_ban_tieu_bieu": ["Hùng Thiêng Sông Núi", "Tiếng Trống Mê Linh", "Hào Khí Thăng Long"]
+  },
+  {
+    "ma_nhac_cu": "NC_TRONG_COM",
+    "ten_nhac_cu": "Trống Cơm",
+    "ten_goi_khac": ["Phạn Cổ"],
+    "hinh_anh": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ màng rung (trống hai mặt)",
+    "chat_lieu": "Tang trống tiện bằng gỗ mít hoặc gỗ dổi; hai mặt bịt da trâu hoặc da bò nạo mỏng; nẹp vành xỏ dây da; cơm nếp chín nóng giã dẻo để gắn vào tâm mặt trống.",
+    "nguon_goc": "Xuất hiện từ thế kỷ 10 thời nhà Lý, ban đầu dùng trong dàn nhạc cung đình rồi lan tỏa sâu rộng vào dân ca đồng bằng Bắc Bộ.",
+    "dac_diem_nhan_dang": [
+      "Thân trống hình ống tròn dài khoảng 50 - 60cm, phình ở giữa và thắt lại ở hai đầu.",
+      "Hai mặt trống hình tròn bịt màng da căng bằng các sợi dây da nối liền hai đầu.",
+      "Có dây quàng qua vai để đeo trống nằm ngang trước bụng.",
+      "Khi biểu diễn, ở tâm một mặt trống có gắn một miếng cơm nếp dẻo màu trắng."
+    ],
+    "cach_su_dung": "Người diễn tấu quàng trống ngang thắt lưng. Tay phải vỗ vào mặt có gắn cơm tạo tiếng 'Tùm' trầm ấm ngọt ngào; tay trái vỗ vào mặt không gắn cơm tạo tiếng 'Tịch' vang đanh cao.",
+    "mo_ta": "Nhạc cụ dân gian độc đáo với kỹ thuật gắn cơm nếp hạ cao độ, tạo nên âm thanh 'Tùm, Tịch' âm dương hòa quyện, gắn liền với câu hát dân gian thân thương 'Tình bằng có cái trống cơm'.",
+    "dan_toc": "Kinh (Việt)",
+    "vung_mien": "Đồng bằng Bắc Bộ",
+    "the_loai_am_nhac": ["Dân Ca Bắc Bộ", "Hát Chèo", "Tuồng Cổ", "Hòa Tấu Dân Gian"],
+    "bai_ban_tieu_bieu": ["Trống Cơm", "Múa Trống Cơm", "Ngày Hội Làng"]
+  },
+  {
+    "ma_nhac_cu": "NC_KEN_SARANAI",
+    "ten_nhac_cu": "Kèn Saranai & Trống Paranưng",
+    "ten_goi_khac": ["Kèn Saranai Chăm", "Kèn Bầu Chăm"],
+    "hinh_anh": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
+    "nhom_nhac_cu": "Nhạc cụ hơi (kèn dăm kép) & Nhạc cụ màng rung",
+    "chat_lieu": "Thân kèn bằng gỗ trắc, mun; loa kèn bằng đồng thau hoặc gỗ quý; dăm kèn bằng lá buông hoặc lá thốt nốt khô; trống Paranưng bịt da dê viền mây.",
+    "nguon_goc": "Tồn tại qua hàng nghìn năm văn hóa vương quốc Chămpa cổ kính dọc dải đất duyên hải miền Trung; nhạc cụ thiêng không thể thiếu trong lễ hội Katê.",
+    "dac_diem_nhan_dang": [
+      "Thân kèn bằng gỗ tiện tròn khoét 7 lỗ bấm ở mặt trước và 1 lỗ ngón cái ở mặt sau.",
+      "Đầu loa kèn loe rộng như hình chiếc chuông bằng đồng hoặc gỗ mun.",
+      "Đầu ngậm có gắn 4 lá dăm kèn nhỏ bằng lá thốt nốt.",
+      "Đi cùng trống Paranưng tròn một mặt bịt da dê có đai căng mây."
+    ],
+    "cach_su_dung": "Thổi bằng kỹ thuật ém hơi tuần hoàn siêu đẳng, hai má phồng tròn để luồng hơi tuôn trào liên tục hàng giờ liền mà không ngắt quãng, hòa nhịp cùng tiếng vỗ tay trên mặt trống Paranưng và tiếng trống Ginăng.",
+    "mo_ta": "Bộ nhạc cụ huyền bí và linh thiêng của đồng bào Chăm. Âm thanh réo rắt, ma mị gợi nhớ hình bóng những ngọn tháp cổ rêu phong và bước chân vũ nữ Apsara hòa cùng vũ trụ.",
+    "dan_toc": "Chăm",
+    "vung_mien": "Văn hóa Chăm Duyên hải (Ninh Thuận, Bình Thuận)",
+    "the_loai_am_nhac": ["Lễ Hội Katê", "Lễ Rija Nưgar", "Vũ Điệu Dưới Chân Tháp Po Klong Garai"],
+    "bai_ban_tieu_bieu": ["Âm Vang Tiếng Trống Ginăng", "Múa Quạt Tháp Cổ", "Vũ Khúc Siva"]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Nhạc Cụ Việt",
+  "description": "Ứng dụng tra cứu, nhận diện thông minh qua hình ảnh và trải nghiệm âm sắc các loại nhạc cụ truyền thống Việt Nam: Đàn Bầu, Đàn Tranh, Đàn Nguyệt, Đàn Đáy, K'lông Pút, Cồng Chiêng, T'rưng, Sáo Trúc...",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
